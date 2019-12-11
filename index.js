@@ -144,10 +144,10 @@ function processContains(item, list, callback) {
       return true
     } else {return false}
   }*/
-  return callback(list.includes(item) ? true : false);
+  return callback(list.includes(item));
   }
 
-/**
+/***
  * ### Challenge `processDuplicateFree`
  * THIS IS A STRETCH PROBLEM! ATTEMPT ONLY AFTER COMPLETING ALL NON-STRETCH CHALLENGES!
  * THIS IS A STRETCH PROBLEM! ATTEMPT ONLY AFTER COMPLETING ALL NON-STRETCH CHALLENGES!
@@ -170,7 +170,7 @@ function processDuplicateFree() {
 }
 
 /////////////// HIGHER-ORDER ARRAY METHODS ///////////////
-/////////////// HIGHER-ORDER ARRAY METHODS ///////////////
+///////////// HIGHER-ORDER ARRAY METHODS ///////////////
 
 // A local community center is holding a fund raising 5k fun run and has invited
 // 50 small businesses to make a small donation on their behalf for some much needed
